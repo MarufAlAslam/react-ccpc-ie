@@ -23,3 +23,7 @@
 a:hover .animation{
     transform: translateX(10px);
 }
+
+footer a:hover{
+    text-decoration: underline;
+}
