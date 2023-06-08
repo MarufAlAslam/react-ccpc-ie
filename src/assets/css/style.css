@@ -5,3 +5,21 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+.hero{
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.list-square{
+    list-style: inside square;
+}
+
+.animation{
+    transition: 0.3s;
+}
+a:hover .animation{
+    transform: translateX(10px);
+}
