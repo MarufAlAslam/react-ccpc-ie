@@ -55,7 +55,7 @@ const Hero = () => {
 
             <a
               href="/"
-              className="bg-transparent hover:bg-red-600 text-white inline-flex text-lg items-center border-2 py-[15px] px-[30px] border-white rounded-full"
+              className="bg-transparent hover:bg-[#2F4E6F] text-white inline-flex text-lg items-center border-2 py-[15px] px-[30px] border-white rounded-full"
             >
               Find Out More{" "}
               <BsArrowRight className="ml-3 mr-4 text-2xl animation" />
