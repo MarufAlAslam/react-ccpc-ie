@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <div className="hero py-[50px]">
       <div className="custom-container">
-        <div className="flex justify-between items-center md:gap-[150px]">
-          <div className="w-1/2">
-            <h1 className="text-6xl font-bold text-[#fff]">CONSUMERS</h1>
+        <div className="flex md:flex-row flex-col justify-between items-center md:gap-[150px] gap-5">
+          <div className="md:w-1/2 w-full md:p-0 p-5">
+            <h1 className="md:text-6xl text-3xl font-bold text-[#fff]">CONSUMERS</h1>
             <p className="text-[22px] text-white">
               Get practical, independent information on:
             </p>
@@ -30,8 +30,8 @@ const Hero = () => {
               <BsArrowRight className="ml-3 mr-4 text-2xl animation" />
             </a>
           </div>
-          <div className="w-1/2">
-            <h1 className="text-6xl font-bold text-[#fff]">BUSINESS</h1>
+          <div className="md:w-1/2 w-full md:p-0 p-5">
+            <h1 className="md:text-6xl text-3xl font-bold text-[#fff]">BUSINESS</h1>
             <p className="text-[22px] text-white">
               Information for business, legal and media:
             </p>

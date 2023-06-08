@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer className="footer py-[20px] bg-[#2E4660]">
       <div className="custom-container">
-        <div className="flex justify-between items-start">
+        <div className="flex md:flex-row flex-col md:gap-0 gap-5 justify-between items-start">
           <a href="/">
             <img src={logo} alt="logo" />
           </a>
